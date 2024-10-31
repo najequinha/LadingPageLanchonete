@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 @import url('menu.css');
+@import url(home.css);
 
 :root{
-    --color-primary-1: #fff9ea;
-    --color-primary-2: #f37820;
+    --color-primary-1: #E04343;
+    --color-primary-2: #fff5cf  ;
     --color-primary-3: #F3FEB8;
-    --color-primary-4: #FFDE4D;
+    --color-primary-4: #ffdc40;
     --color-primary-5: #FFB22C;
     --color-primary-6: #FF4C4C;
 
@@ -21,5 +22,25 @@
     font-family: 'poppins', sans-serif;
 }
 section{
-    padding: 10px;
+    padding: 28px 8%;
+}
+a{
+    text-decoration: none;
+}
+.btn-padrao{
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-primary-4);
+    border-radius: 12px;
+    padding: 10px 14px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+    transition: background-color .3s ease;
+    color: #393b2d;
+}
+.btn-padrao:hover{
+    background-color: var(--color-primary-6);
 }
