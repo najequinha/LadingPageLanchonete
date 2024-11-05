@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-@import url('menu.css');
+@import url(menu.css);
 @import url(home.css);
+@import url(cardapio.css);
 
 :root{
     --color-primary-1: #E04343;
@@ -9,7 +10,7 @@
     --color-primary-3: #F3FEB8;
     --color-primary-4: #ffdc40;
     --color-primary-5: #FFB22C;
-    --color-primary-6: #FF4C4C;
+    --color-primary-6: #E85C0D;
 
     --color-neutra-0: #fff;
     --color-neutra-1: #1d1d1d;
@@ -43,4 +44,25 @@ a{
 }
 .btn-padrao:hover{
     background-color: var(--color-primary-6);
+    color: var(--color-primary-2);
+}
+.social-media-button{
+    display: flex;
+    gap: 18px;
+}
+.social-media-button a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 40px;
+    background-color: var(--color-neutra-0);
+    font-size: 1.2rem;
+    border-radius: 10px;
+    color: var(--color-neutra-1);
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+.social-media-button a:hover{
+    box-shadow: 0px 0px 12px 4px var(--color-primary-5);
 }
