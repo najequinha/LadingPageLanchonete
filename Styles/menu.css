@@ -32,11 +32,11 @@
 .nav-link:hover{
     color: var(--color-primary-1);
 }
-.nav-item.active a{
+/* .nav-item.active a{
     color: var(--color-neutra-1);
-    border-bottom: 3px solid var(--color-primary-4);
-}
-.mobile-btn, .mobile-menu{
+    border-bottom: 3px solid var(--color-primary-4); */
+/* } */
+.mobile_btn, .mobile-menu{
     display: none;
 }
 @media screen and (max-width:1170px){
